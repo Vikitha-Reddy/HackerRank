@@ -1,0 +1,10 @@
+import numpy
+n,m = map(int, input().split())
+arr_A = numpy.array([list(map(int, input().split())) for i in range(n)])
+arr_B = numpy.array([list(map(int, input().split())) for i in range(n)])
+print(arr_A + arr_B)
+print(arr_A - arr_B)
+print(arr_A * arr_B)
+print(arr_A // arr_B)
+print(arr_A % arr_B)
+print(arr_A ** arr_B)
